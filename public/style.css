@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: cursive, system-ui, sans-serif;
+  color: saddlebrown;
+  background-color: peachpuff;
+}
+
+h1, h2, h5, p, .container{
+      text-align: center;
+    }
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: Tahoma, sans-serif;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  font-family: Tahoma, sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: Tahoma, sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: Tahoma, sans-serif;
+}
+
+.box {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 700px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+#guessInput {
+  display: block;      
+  margin: 20px auto;    
+}
+button {
+  display: block;      
+  margin: 10px auto;    
+}
+button:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
