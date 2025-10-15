@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+ <h2> Lifetime supply Calculator for my Favorite Snack</h2>  
+ <script>
+    while (true){
+        let age, maxAge, numPerDay;
+
+        
+        while(true){
+            age = prompt("Enter your current age");
+            maxAge = prompt("Enter your maximum age:");
+            numPerDay = prompt("How many nuggets do you eat per day");
+
+            if (age > 0 && maxAge > 0 && numPerday > 0 && age < maxAge){
+                break;
+           }
+           alert("Invalid input. Please try again.");
+        }
+        let totalRequired = (numPerDay * 365) * (maxAge - age);
+        alert("You will need " + totalRequired + " nuggets to last you until the ripe old age of " + maxAge + " years.")
+    }
+ </script>
+ <img src="Nugget.jpg" width = "150" height = "150">
+</body>
+</html>
