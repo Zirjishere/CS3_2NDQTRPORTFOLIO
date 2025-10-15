@@ -114,6 +114,18 @@
             text-align:center;
         }
 
+        @keyframes titleRgb {
+          0% { color: red; }
+          25% { color: orange; }
+          50% { color: yellow; }
+          75% { color: green; }
+          100% { color: blue; }
+        }
+
+        .RgbText {
+          animation: titleRgb 4s infinite;
+        }
+
 
     </style>
 <body>
@@ -126,8 +138,8 @@
     </div>
 
     <div class = "TitleBox">
-    <h1>Friday Schedule</h1>
-    <h2>by Zirjan Hero F. Mendaro</h2>
+    <h1 class = "RgbText">Friday Schedule</h1>
+    <h2 class = "RgbText">by Zirjan Hero F. Mendaro</h2>
     </div>
 
     <table border = "1" class="center-table">
