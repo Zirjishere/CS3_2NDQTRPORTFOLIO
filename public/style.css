@@ -25,7 +25,7 @@ header, footer {
   margin: 0;
 }
 
-/* How to fix gap for header and footer bonus*/ 
+/* Bonus: How to fix gap for header and footer*/ 
 footer {
   position: fixed;
   bottom: 0;
@@ -58,7 +58,9 @@ section > img {
 
 /* Bonus: make the info centered */
 section {
-  padding: 80px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(58, 179, 255);
+  padding: 80px 20px 120px;
 }
 
 /* G */
@@ -93,7 +95,7 @@ a:hover {
 }
 
 /* J */
-.container ul, li {
+.container ul li {
   width: 150px;
   padding: 5px;
   background-color: cornsilk;
