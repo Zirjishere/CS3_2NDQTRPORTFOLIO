@@ -1,17 +1,121 @@
+body {
+    background-color: #ffe9d5;
+    font-family: Tahoma, system-ui, sans-serif;
+    color: black;
+    margin: 0;
+}
 
-.navbar a:link {
-  color: saddlebrown;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 0 25px;
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: peachpuff;
+    padding: 12px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.navbar img {
+    margin-right: 10px;
+}
+
+.navbar-title {
+    color: saddlebrown;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: saddlebrown;
+    margin: 0 15px;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.navbar a:hover {
+    background-color: #f4b183;
+    color: white;
 }
 
 .navbar a:visited {
-  color: saddlebrown;
+    color: darkred;
 }
 
-.navbar a:hover,
-.navbar a:focus {
-  color: darkred;
-  text-decoration: underline;
+.navbar a:active {
+    background-color: saddlebrown;
+    color: white;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: center;
+    border: 1px solid #b5651d;
+}
+
+th {
+    background-color: peachpuff;
+}
+
+td {
+    background-color: lightyellow;
+}
+
+.TitleBox {
+    background-color: peachpuff;
+    border-radius: 12px;
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ParagraphBox {
+    background-color: peachpuff;
+    border-radius: 12px;
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.ParagraphBox img {
+    float: left;
+    margin: 0 15px 10px 0;
+    border-radius: 12px;
+}
+
+.PVBox {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #f4b183;
+    text-align: center;
+    font-weight: bold;
+    color: saddlebrown;
+}
+
+
+@keyframes titleRgb {
+    0% { color: red; }
+    25% { color: orange; }
+    50% { color: yellow; }
+    75% { color: green; }
+    100% { color: blue; }
+}
+
+.RgbText {
+    animation: titleRgb 4s infinite;
 }
