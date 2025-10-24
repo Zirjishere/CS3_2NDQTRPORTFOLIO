@@ -1,10 +1,17 @@
+
 .navbar a:link {
   color: saddlebrown;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 25px;
 }
+
 .navbar a:visited {
-  color: brown;
+  color: saddlebrown;
 }
-.navbar a:hover {
+
+.navbar a:hover,
+.navbar a:focus {
   color: darkred;
   text-decoration: underline;
 }
