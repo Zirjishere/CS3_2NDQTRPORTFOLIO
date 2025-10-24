@@ -1,0 +1,10 @@
+.navbar a:link {
+  color: saddlebrown;
+}
+.navbar a:visited {
+  color: brown;
+}
+.navbar a:hover {
+  color: darkred;
+  text-decoration: underline;
+}
